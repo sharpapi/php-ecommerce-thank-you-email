@@ -87,19 +87,21 @@ try {
 
 ## Example Response
 ```json
+
 {
-  "data": {
-    "type": "api_job_result",
-    "id": "job-id-here",
-    "attributes": {
-      "status": "success",
-      "type": "content_processing",
-      "result": {
-        "content": "Processed result content here..."
-      }
+    "data": {
+        "type": "api_job_result",
+        "id": "8c3af4d1-a8ae-4c52-9656-4f26254b7b71",
+        "attributes": {
+            "status": "success",
+            "type": "ecommerce_thank_you_email",
+            "result": {
+                "email": "Dear Customer,\n\nThank you for your recent purchase of the Razer Blade 16 Gaming Laptop: NVIDIA GeForce RTX 4090-13th Gen Intel 24-Core i9 HX CPU. We appreciate your business and are confident that you will enjoy the high performance and advanced features of your new laptop.\n\nWe look forward to serving you again. Please visit our store soon for more exciting products and offers.\n\nBest regards,\n[Your Company Name]"
+            }
+        }
     }
-  }
 }
+
 ```
 ---
 
